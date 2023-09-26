@@ -1,11 +1,14 @@
+# Recebe o tempo de duração
 print('Digite a quantidade de tempo que pretende ser passada: ')
 hora01 = int(input('Horas: '))
 minutos01 = int(input('Minutos: '))
 
+# Recebe o horario da entrada
 print('Digite o horario de entrada: ')
 hora02 = int(input('Horas: '))
 minutos02 = int(input('Minutos: '))
 
+# Calcula o horario da saída
 hora_final = hora01 + hora02
 minuto_final = minutos01 + minutos02
 
@@ -22,7 +25,5 @@ if hora_final >= 12:
 
 if hora_final >= 13:
     hora_final -= 12
-
-
 
 print(f'Tempo de saida: {hora_final}:{minuto_final:02}{formato}')

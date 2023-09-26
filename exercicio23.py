@@ -6,5 +6,6 @@ for i in range(10):
         intervalo += 1
 
 contador = 10 - intervalo
+
 print(f'Numeros no intervalo de 10 e 20: {intervalo}')
 print(f'Números fora do intervalo: {contador}')
