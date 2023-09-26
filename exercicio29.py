@@ -21,5 +21,3 @@ for n in lista_compras:
 print('-'*35)
 item = lista_compras.pop(-1)
 print(item)
-
-
