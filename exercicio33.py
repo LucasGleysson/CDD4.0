@@ -1,5 +1,6 @@
 a = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 m = a
+
 for i in range(10):
     a[i] = int(input(f'Digite o {i+1}º valor: '))
 

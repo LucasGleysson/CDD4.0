@@ -8,3 +8,4 @@ for p in range(qnt_alunos):
 print('-'*5, 'LISTA DE ALUNOS', '-'*5)
 for aluno in lista_alunos:
     print('-', aluno)
+

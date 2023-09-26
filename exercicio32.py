@@ -9,6 +9,7 @@ for j in range(5):
     soma += notas[j]
 
 media = soma / 5
+
 print(f'A média da tuma é {media}')
 for n in range(5):
     if notas[n] >= media:
