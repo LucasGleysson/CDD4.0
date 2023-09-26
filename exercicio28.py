@@ -1,6 +1,7 @@
 num1 = int(input('Digite um número: '))
 num2 = int(input('Digite outro número: '))
 count = 0
+
 while num2 == 0 or count < 5 :
     print('Não existe divisão por zero, tente novamente: ')
     num2 = int(input('Digite outro número: '))
