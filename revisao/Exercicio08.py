@@ -1,7 +1,7 @@
 qnt = int(input('Digite a quantidade de números que serão calculados: '))
 soma = 0
 for i in range(qnt):
-    num = int(input(f'Digite o {qnt+1}º número: '))
+    num = float(input(f'Digite o {qnt+1}º número: '))
     soma += num
 
 media = soma / qnt+1
